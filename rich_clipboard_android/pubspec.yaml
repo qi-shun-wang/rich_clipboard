@@ -11,19 +11,16 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter 
+    sdk: flutter
   rich_clipboard_platform_interface:
-    path: ../rich_clipboard_platform_interface 
+    path: ../rich_clipboard_platform_interface
+
 dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
   plugin_platform_interface: ^2.0.0
-dependency_overrides: 
-  rich_clipboard_platform_interface:
-    git:
-      url: https://github.com/qi-shun-wang/rich_clipboard.git
-      path: rich_clipboard_platform_interface 
+
 flutter:
   plugin:
     implements: rich_clipboard
